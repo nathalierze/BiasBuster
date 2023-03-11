@@ -2,7 +2,7 @@ from sklearn.metrics import (
     confusion_matrix
 )
 
-def predictive_equality(clf, X_test_advantaged_group, 
+def calculate_predictive_equality(clf, X_test_advantaged_group, 
 y_test_advantaged_group,X_test_disadvantaged_group, y_test_disadvantaged_group 
 ):
     """

@@ -1,6 +1,6 @@
 import unittest
 import pickle
-from equal_opportunity import equal_opportunity
+from predictive_equality import predictive_equality
 import os
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -12,7 +12,7 @@ C_FILENAME = os.path.join(os.path.dirname(__file__), 'y_test_abi.pkl')
 D_FILENAME = os.path.join(os.path.dirname(__file__), 'y_test_kein_abi.pkl')
 
 
-class TestCalculateEO(unittest.TestCase):
+class TestCalculatePredictiveEquality(unittest.TestCase):
     def setUp(self):
         infile = open(CLF_FILENAME, 'rb')
         self.clf = pickle.load(infile)
@@ -35,7 +35,7 @@ class TestCalculateEO(unittest.TestCase):
         infile.close()
 
     def test_calculate_abroca(self):
-        self.assertEqual(equal_opportunity.calculate_equal_opportunity(self.clf, self.X_test_abi, self.y_test_abi, self.X_test_kein_abi, self.y_test_kein_abi),0.003677900887379515)
+        self.assertEqual(predictive_equality.predictive_equality(self.clf, self.X_test_abi, self.y_test_abi, self.X_test_kein_abi, self.y_test_kein_abi),-0.00674579613242518)
 
 if __name__ == '__main__':
     unittest.main()
