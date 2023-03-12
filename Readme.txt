@@ -1,1 +1,0 @@
-This package still needs a good readme file.
