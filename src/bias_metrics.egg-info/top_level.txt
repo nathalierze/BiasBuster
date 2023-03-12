@@ -1,5 +1,4 @@
-abroca
-equal_opportunity
-predictive_equality
-predictive_parity
-tests
+metric_abroca
+metric_equal_opportunity
+metric_predictive_equality
+metric_predictive_parity
