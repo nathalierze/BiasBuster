@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: BiasBuster
-Version: 0.0.2
+Version: 0.0.3
 Summary: A Python package to check for algorithmic bias.
 Home-page: https://github.com/nathalierze/BiasBuster
 Author: Nathalie Rzepka
@@ -26,7 +26,7 @@ Predictive Parity: met, if both groups have the same PPV
 This package can be installed using pip.
 An installation with pip automatically downloads the latest version from PyPI:
 ```
-pip install BiasBuster as bb
+pip install BiasBuster
 ```
 
 # Example & Usage
