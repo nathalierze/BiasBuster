@@ -5,7 +5,7 @@ with open("README.md", "r", encoding = "utf-8") as fh:
 
 setuptools.setup(
     name = "BiasBuster",
-    version = "0.0.2",
+    version = "0.0.3",
     author = "Nathalie Rzepka",
     # author_email = "author@example.com",
     description = "A Python package to check for algorithmic bias.",
