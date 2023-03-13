@@ -12,7 +12,7 @@ Predictive Parity: met, if both groups have the same PPV
 This package can be installed using pip.
 An installation with pip automatically downloads the latest version from PyPI:
 ```
-pip install BiasBuster as bb
+pip install BiasBuster
 ```
 
 # Example & Usage
