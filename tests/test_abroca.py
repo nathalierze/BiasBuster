@@ -1,6 +1,6 @@
 import unittest
 import pickle
-from abroca import abroca
+from BiasBuster import abroca
 import os
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
