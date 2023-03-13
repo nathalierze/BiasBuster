@@ -1,6 +1,6 @@
 This package provides functions to test one's ML models bias.
 
-# Bias-metrics package
+# BiasBuster package
 The metrics are calculated by a slicing analysis. Four fairness metrics are supported: ABROCA, Equal Opportunity, Predictive Equality and Predictive Parity.
 
 ABROCA: met, if both groups have equal Absolute Between ROC Area
