@@ -1,4 +1,0 @@
-metric_abroca
-metric_equal_opportunity
-metric_predictive_equality
-metric_predictive_parity

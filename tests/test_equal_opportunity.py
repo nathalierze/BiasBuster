@@ -1,6 +1,6 @@
 import unittest
 import pickle
-from equal_opportunity import equal_opportunity
+from BiasBuster import equal_opportunity
 import os
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)

@@ -20,10 +20,10 @@ pip install BiasBuster
 Import the metric you'd like to use.
 
 ```python
-from abroca import abroca
-from predictive_equality import predictive_equality
-from predictive_parity import predictive_parity
-from equal_opportunity import equal_opportunity
+from BiasBuster import abroca
+from BiasBuster import predictive_equality
+from BiasBuster import predictive_parity
+from BiasBuster import equal_opportunity
 
 df = load_your_dataset
 

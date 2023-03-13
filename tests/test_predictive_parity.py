@@ -1,6 +1,6 @@
 import unittest
 import pickle
-from predictive_parity import predictive_parity
+from BiasBuster import predictive_parity
 import os
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
