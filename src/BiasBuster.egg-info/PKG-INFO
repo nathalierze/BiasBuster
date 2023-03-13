@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
-Name: bias-metrics
+Name: BiasBuster
 Version: 0.0.2
 Summary: A Python package to check for algorithmic bias.
-Home-page: https://github.com/nathalierze/bias-metrics
+Home-page: https://github.com/nathalierze/BiasBuster
 Author: Nathalie Rzepka
-Project-URL: Bug Tracker, https://github.com/nathalierze/bias-metrics/issuesL
+Project-URL: Bug Tracker, https://github.com/nathalierze/BiasBuster/issuesL
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
@@ -14,7 +14,7 @@ License-File: LICENSE.txt
 
 This package provides functions to test one's ML models bias.
 
-# Bias-metrics package
+# BiasBuster package
 The metrics are calculated by a slicing analysis. Four fairness metrics are supported: ABROCA, Equal Opportunity, Predictive Equality and Predictive Parity.
 
 ABROCA: met, if both groups have equal Absolute Between ROC Area
@@ -26,7 +26,7 @@ Predictive Parity: met, if both groups have the same PPV
 This package can be installed using pip.
 An installation with pip automatically downloads the latest version from PyPI:
 ```
-pip install bias-metrics
+pip install BiasBuster as bb
 ```
 
 # Example & Usage
